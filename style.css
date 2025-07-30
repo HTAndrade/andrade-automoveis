@@ -161,6 +161,7 @@ header a {
   justify-content: center;
   align-items: center;
   color: #f4f4f4;
+  padding-bottom: 350px;
 }
 
 .title {
@@ -193,8 +194,8 @@ header a {
   gap: 20px;
 }
 .sobre-content img {
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
   margin-right: 10px;
   object-fit: cover;
   border-radius: 10px;
@@ -202,7 +203,7 @@ header a {
 }
 .sobre-content p {
   padding: 10px;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 20px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -271,6 +272,6 @@ i {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.home-content h1, .home-content p, .home-content a {
+.home-content h1, .home-content p, .home-a, .title, .sobre-content p, .sobre-content img, .title2, .servico-card1, .servico-card2, .servico-card3, .servico-card4, .servico-card5, .servico-card6, .servico-card7, .servico-card8, .servico-card9 {
   visibility: hidden;
 }
