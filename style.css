@@ -161,7 +161,7 @@ header a {
   justify-content: center;
   align-items: center;
   color: #f4f4f4;
-  padding-bottom: 350px;
+  padding-bottom: 200px;
 }
 
 .title {
@@ -190,6 +190,9 @@ header a {
   justify-content: center;
   align-items: center;
   max-width: 1100px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+
   padding: 50px 0;
   gap: 20px;
 }
