@@ -181,6 +181,14 @@ header a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.title3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #f4f4f4;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .sobre-content {
   display: flex;
   text-align: justify;
@@ -275,6 +283,105 @@ i {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.home-content h1, .home-content p, .home-a, .title, .sobre-content p, .sobre-content img, .title2, .servico-card1, .servico-card2, .servico-card3, .servico-card4, .servico-card5, .servico-card6, .servico-card7, .servico-card8, .servico-card9 {
+.contato-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px; 
+  color: #f4f4f4;
+  margin: 0 auto;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: #f4f4f4;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #444; /* cor de fundo do formulário */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.contato-form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555; /* cor de fundo dos campos */
+  color: #f4f4f4; /* cor do texto */
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+  outline: none;
+  border: 2px solid #d40808; /* cor do contorno ao focar */
+}
+
+.contato-form button {
+  background-color: #d40808; /* cor do botão */
+  color: #f4f4f4; /* cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.contato-form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(212, 8, 8, 0.5); /* sombra ao focar */
+}
+.contato-form button:hover {
+  background-color: #000000; /* cor do botão ao passar o mouse */
+}
+.contato-form input::placeholder,
+.contato-form textarea::placeholder {
+  color: #f4f4f4; /* cor do texto do placeholder */
+  opacity: 0.5; /* opacidade do placeholder */
+}
+
+footer {
+  background-color: #333;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+    text-shadow: 0 -2px 5px rgba(0, 0, 0, 1);
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+footer a {
+  color: #d40808;
+  text-decoration: none;
+}
+
+
+
+
+/* Esconder Elementos */
+
+.home-content h1, .home-content p, .home-a, .title, .sobre-content p, .sobre-content img, .title2, .title3, .servico-card1, .servico-card2, .servico-card3, .servico-card4, .servico-card5, .servico-card6, .servico-card7, .servico-card8, .servico-card9, .contato-texto1, .contato-texto2, .contato-texto3, .contato-form, .form-nome, .form-email, .form-msg, .form-telefone, button {
   visibility: hidden;
 }

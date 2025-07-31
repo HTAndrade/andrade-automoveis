@@ -202,23 +202,61 @@
     <!-- Contato Section -->
     <div class="contato-container">
     <section id="contato">
-      
-        <h2 class="title">Contato:</h2>
+
+      <div class="contato-content">
+        <h2 class="title3">Contato:</h2>
+        <div class="contato-texto1">
+        <p>
+          Se você deseja entrar em contato conosco, preencha o formulário abaixo
+          ou utilize as informações de contato disponíveis.
+        </p>
+        </div>
+        <br>
+        <div class="contato-texto2">
+        <p>
+          Estamos localizados em:
+        </p>
+        <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
         <p>Email: andrade.automoveis@ficticio.com</p>
         <p>Telefone: +00 00 0000-0000</p>
-
+        </div>
+        <br>
+        <div class="contato-texto3">
+        <p>
+          Estamos aqui para ajudar! Se você tiver alguma dúvida, sugestão ou
+          precisar de mais informações sobre nossos serviços, não hesite em nos
+          contatar. Preencha o formulário abaixo e nossa equipe entrará em
+          contato o mais breve possível.
+        </p>
+      </div>
+      <br>
+      <div class="contato-form">
         <form action="#" method="post">
+          <div class="form-nome">
           <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required />
-
+          <input type="text" id="nome" name="nome" required  placeholder="Fulano de Tal"/>
+          </div>
+          <br>
+          <div class="form-email">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
+          <input type="email" id="email" name="email" required placeholder="fulano.tal@fulano.com" />
+          </div>
+           <br>
+          <div class="form-msg">
           <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-
+          <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Digite sua mensagem aqui" ></textarea>
+          </div>
+          <br>
+          <div class="form-telefone">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx" />
+          </div>
+          <br>  
+     
           <button type="submit">Enviar</button>
+
         </form>
+      </div>
       
     </section>
 
