@@ -156,3 +156,5 @@ revelar.reveal("button", {
   duration: 2000,
   delay: 5000,
 })
+
+document.querySelector("#year").textContent = new Date().getFullYear();
