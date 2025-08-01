@@ -60,6 +60,7 @@ header ul li {
 header a {
   text-decoration: none;
   color: #f4f4f4;
+  
 }
 
 .header-link::after {
@@ -96,6 +97,7 @@ header a {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border: hidden
 }
 .btn-login:hover {
   background-color: #000000;
@@ -108,6 +110,7 @@ header a {
   display: flex;
   justify-content: left;
   position: relative;
+  
 }
 
 .home img {
@@ -400,6 +403,7 @@ footer a {
   margin-bottom: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  
 }
 
 .sm:hover {
