@@ -426,3 +426,135 @@ footer a {
 .home-content h1, .home-content p, .home-a, .title, .sobre-content p, .sobre-content img, .title2, .title3, .servico-card1, .servico-card2, .servico-card3, .servico-card4, .servico-card5, .servico-card6, .servico-card7, .servico-card8, .servico-card9, .contato-texto1, .contato-texto2, .contato-texto3, .contato-form, .form-nome, .form-email, .form-msg, .form-telefone, button {
   visibility: hidden;
 }
+
+/* Media Queries */
+
+/* Mobile pequeno (até 480px) */
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 30px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .servico-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .sobre-content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .sobre-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contato-form {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/* Celular maior ou tablet (481px a 768px) */
+@media (max-width: 768px) {
+  header {
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header ul li {
+    font-size: 8px;
+    padding: 0;
+  }
+
+   .logo img {
+    margin-top: 6px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-login {
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+
+  [id] {
+  scroll-margin-top: 60px;
+}
+ 
+  .home-content {
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+
+  .home-content h1 {
+    font-size: 36px;
+  }
+
+  .servico-caixa {
+    grid-template-columns: 1fr;
+  }
+
+  .servico-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .sobre-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre-content img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+/* Tablet maior ou notebooks pequenos (769px a 1024px) */
+@media (max-width: 1024px) {
+  .servico-caixa {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .servico-card {
+    height: auto;
+  }
+
+  .home-content h1 {
+    font-size: 40px;
+  }
+
+  .home-content p {
+    font-size: 18px;
+  }
+}
+
+/* Telas muito grandes (acima de 1400px) */
+@media (min-width: 1400px) {
+  .home-content h1 {
+    font-size: 60px;
+  }
+
+  .home-content p {
+    font-size: 24px;
+  }
+
+  .servico-card {
+    height: 350px;
+  }
+}
